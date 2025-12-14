@@ -1,0 +1,52 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+supportsQt6=True
+name=SmartLineLabeler
+qgisMinimumVersion=3.0
+description=create dynamic stacked labels for linestring layers
+version=3.1.2
+author=Christoph Candido
+email=christoph.candido@gmx.at
+
+about=create dynamic stacked labels for linestring layers
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+changelog=3.1.2 : add option to use different units for label offsets; add configuration dialog
+3.1.1 : add option for label alignment when pressing F5 (left, right, center); add option for individual setting of label offsets
+3.1.0 : using nearest position for labelling and Ctrl to fix position
+3.0.3 : bug fix
+3.0.2 : reverse label direction with F5
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Plugins
+icon=./icons/icon.svg
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+

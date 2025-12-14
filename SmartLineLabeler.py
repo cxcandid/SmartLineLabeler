@@ -151,7 +151,7 @@ class SmartLineLabeler:
 
     def initGui(self):
         """Create the menu entries and toolbar icons inside the QGIS GUI."""
-        icon_path = os.path.join(os.path.dirname(__file__), "icon.svg")
+        icon_path = os.path.join(os.path.dirname(__file__), "icons/icon.svg")
         self.action = self.add_action(
             icon_path,
             text=self.tr("Create dynamic stacked Linestring Labels"),
@@ -733,7 +733,7 @@ class SmartLineLabeler:
 
             self.widget = self.iface.messageBar().createMessage("")
             self.widget.children()[1].clear()
-            pix = QPixmap(os.path.dirname(os.path.realpath(__file__)) + r"icons\icon.svg")
+            pix = QPixmap(os.path.dirname(os.path.realpath(__file__)) + "/icons/icon.svg")
             pix = pix.scaled(22, 22, Qt.AspectRatioMode.KeepAspectRatio, 
                              Qt.TransformationMode.SmoothTransformation)
             self.widget.children()[1].setPixmap(pix)

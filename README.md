@@ -13,7 +13,8 @@ This sample project includes some underline telecom cables from ArcGIS Online (h
 ## Basic Plugin Usage
 
 I start with a simple demonstration of the basic plugin usage.
-Let’s open the QGIS project “No Labels” from the included GeoPackage file `SmartLineLabeler_Example.gpkg`. As baselayer we can load the Natural Earth World Map by typing the keyword `world` in the QGIS coordinates bar.
+
+Let’s open the QGIS project `No Labels` from the included GeoPackage file `SmartLineLabeler_Example.gpkg`. As baselayer we can load the Natural Earth World Map by typing the keyword `world` in the QGIS coordinates bar.
 
 After activating the SmartLineLabeler plugin (![SmartLineLabeler Icon](../main/images/image2.png)) a toolbar will appear on top of map canvas.
 

@@ -45,17 +45,17 @@ The plugin uses HTML label formatting because it offers many more style options 
 
 ![SmartLineLabeler Basic Labeling](../main/images/image9.png)
 
-If we want to adjust the direction of the labels to the line direction, we can do so before picking the second point by using the <Shift> key and simultaneously selecting a line feature.
+If we want to adjust the direction of the labels to the line direction, we can do so before picking the second point by using the <kdb>Shift</kbd> key and simultaneously selecting a line feature.
 
-But first, let's delete the label stack we just created: toggle the label layer into Editing mode, select the leader lines and press the <Delete> button.
+But first, let's delete the label stack we just created: toggle the label layer into Editing mode, select the leader lines and press the <kbd>Delete</kbd> button.
 
 ![SmartLineLabeler adjust Label Direction](../main/images/basic2.gif)
 
-While dragging the rubber band line, we can press the <F5> key to toggle the text alignment.
+While dragging the rubber band line, we can press the <kbd>F5</kbd> key to toggle the text alignment.
 
 ![SmartLineLabeler toggle Text Alignment](../main/images/basic3.gif)
 
-If we press the <Ctrl> key while picking the second point, we create an additional fixed reference point. We can again use the <F5> key to toggle the text alignment.
+If we press the <kbd>Ctrl</kbd> key while picking the second point, we create an additional fixed reference point. We can again use the <kbd>F5</kbd> key to toggle the text alignment.
 
 ![SmartLineLabeler use Reference Point](../main/images/basic4.gif)
 

@@ -4,7 +4,7 @@
 This is a QGIS Python plugin that helps us to dynamically create stacked line labels.
 It is very useful for labeling pipes and cables (especially when several lines overlap).
 
-Since the configuration requires several steps, I would like to demonstrate the functionality of the plugin using the sample project (./examples/SmartLineLabeler_Example.gpkg).
+Since the configuration requires several steps, I would like to demonstrate the functionality of the plugin using the sample project (`./examples/SmartLineLabeler_Example.gpkg`).
 
 ![SmartLineLabeler Example](../main/images/image1.png)
 
@@ -134,10 +134,10 @@ If we like, we can configure a background to our labels.
 
 As a final step, we need to click on the “Update Labels” button in the plugin toolbar.
 
-### Tipp: ###
-We should also limit the display of labels to a certain scale range (Label Layer Properties > Rendering)
-
-![Scale Dependent Visibility for the Label Layer](../main/images/image25.png)
+> [!TIP]
+> We should also limit the display of labels to a certain scale range (Label Layer Properties > Rendering)
+>
+> ![Scale Dependent Visibility for the Label Layer](../main/images/image25.png)
 
 If we make a mistake and select the wrong starting point, we can press the right mouse button to cancel the current operation.
 
@@ -171,8 +171,8 @@ After the new label layer is loaded into the layer tree, we must copy the style 
 
 ![SmartLineLabeler make Label Layer permanent](../main/images/advanced4.gif)
 
-### TIP: ###
-If you save your QGIS project as .qgs or .qgz file, you can use the Memory Layer Saver plugin to make the label layer permanent. At the time of writing, the Memory Layer Saver plugin did not work with projects stored in GeoPackage files.
+> [!TIP]
+> If you save your QGIS project as .qgs or .qgz file, you can use the Memory Layer Saver plugin to make the label layer permanent. At the time of writing, the Memory Layer Saver plugin did not work with projects stored in GeoPackage files.
 
 ## Known Problems and Limitations ##
 

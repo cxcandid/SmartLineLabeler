@@ -45,7 +45,7 @@ The plugin uses HTML label formatting because it offers many more style options 
 
 ![SmartLineLabeler Basic Labeling](../main/images/image9.png)
 
-If we want to adjust the direction of the labels to the line direction, we can do so before picking the second point by using the <kdb>Shift</kbd> key and simultaneously selecting a line feature.
+If we want to adjust the direction of the labels to the line direction, we can do so before picking the second point by using the <kbd>Shift</kbd> key and simultaneously selecting a line feature.
 
 But first, let's delete the label stack we just created: toggle the label layer into Editing mode, select the leader lines and press the <kbd>Delete</kbd> button.
 

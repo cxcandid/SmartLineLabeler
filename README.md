@@ -163,9 +163,10 @@ First, we open the Layer Property dialog of the memory layer and remove all laye
 
 Then we save the memory layer to the GeoPackage file of the example project (SmartLineLabeler_Example.gpkg). We could save the memory layer to a different file or into a database as well. We use the same name as the cable layer with suffix ‘_labels’ (“undersee_telecom_cables_labels”).
 
-If the Source Layer is connected to the Label Layer via the `fid` field, we need to assign a different name for FID in the Layer Options (e.g. “newfid”).
-
-![Export Label Layer](../main/images/image30.png)
+> [!CAUTION]
+> If the Source Layer is connected to the Label Layer via the `fid` field, we need to assign a different name for FID in the Layer Options (e.g. “newfid”).
+>
+> ![Export Label Layer](../main/images/image30.png)
 
 After the new label layer is loaded into the layer tree, we must copy the style settings from the old label layer, join the new label layer with the source layer, rename the new label layer and update the selections in the plugin toolbar.
 

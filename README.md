@@ -98,7 +98,9 @@ The problem we are facing here is that some cables have a large number of owner 
 To be completely honest, I searched the internet for a solution and came across a corresponding regular expression (I use `||` instead of `\n` as line feed character and remove the last comma with the rtrim function).
 
 `regexp_replace( rtrim("owners",','),'((?:.*?,){4}.*?),','\\1  ||')` ... replace every 5th comma with `,||`
+
 `regexp_replace( rtrim("owners",','),'((?:.*?,){3}.*?),','\\1  ||')` ... replace every 4th comma with `,||`
+
 `regexp_replace( rtrim("owners",','),'((?:.*?,){2}.*?),','\\1  ||')` ... replace every 3rd comma with `,||`
 
 I think there are other solutions that could work, but this regex serves its purpose.

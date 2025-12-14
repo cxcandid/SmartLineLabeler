@@ -93,11 +93,13 @@ Of course, we are not satisfied with single-line labels. We want label blocks th
 
 There is a field called “owners” in the `undersea_telecom_cables` layer, which we want to insert under the name of the cable, as shown in the figure above.
 
-The problem we are facing here is that some cables have a large number of owner names separated by commas. In this case, it would be helpful if we could insert a line break after every third comma, for example.
+The problem we are facing here is that some cables have a large number of owner names separated by commas. In this case, it would be helpful if we could insert a line break after every 5th comma, for example.
 
 To be completely honest, I searched the internet for a solution and came across a corresponding regular expression (I use `||` instead of `\n` as line feed character and remove the last comma with the rtrim function).
 
-`regexp_replace( rtrim("owners",','),'((?:.*?,){4}.*?),','\\1  ||')`
+`regexp_replace( rtrim("owners",','),'((?:.*?,){4}.*?),','\\1  ||')` ... replace every 5th comma with `,||`
+`regexp_replace( rtrim("owners",','),'((?:.*?,){3}.*?),','\\1  ||')` ... replace every 4th comma with `,||`
+`regexp_replace( rtrim("owners",','),'((?:.*?,){2}.*?),','\\1  ||')` ... replace every 3rd comma with `,||`
 
 I think there are other solutions that could work, but this regex serves its purpose.
 Next, we add a new field “txt” to the cable layer. If we don't label too many cables, the field can also be virtual.

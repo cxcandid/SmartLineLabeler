@@ -14,8 +14,9 @@ email=christoph.candido@gmx.at
 
 about=create dynamic stacked labels for linestring layers
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/cxcandid/SmartLineLabeler/issues
+repository=https://github.com/cxcandid/SmartLineLabeler
+homepage=https://github.com/cxcandid/SmartLineLabeler
 # End of mandatory metadata
 
 # Recommended items:
@@ -24,14 +25,13 @@ hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
 changelog=3.1.2 : add option to use different units for label offsets; add configuration dialog
 3.1.1 : add option for label alignment when pressing F5 (left, right, center); add option for individual setting of label offsets
-3.1.0 : using nearest position for labelling and Ctrl to fix position
+3.1.0 : using nearest position for labeling and Ctrl to fix position
 3.0.3 : bug fix
 3.0.2 : reverse label direction with F5
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=vector, line, labeling
 
-homepage=http://homepage
 category=Plugins
 icon=./icons/icon.svg
 # experimental flag

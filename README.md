@@ -1,5 +1,5 @@
 
-# QGIS SmartLineLabeler Plugin
+# ![SmartLineLabeler Icon](../main/images/image2.png) QGIS SmartLineLabeler Plugin
 
 This is a QGIS Python plugin that helps us to dynamically create stacked line labels.
 It is very useful for labeling pipes and cables (especially when several lines overlap).

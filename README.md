@@ -8,7 +8,7 @@ Since the configuration requires several steps, I would like to demonstrate the 
 
 ![SmartLineLabeler Example](../main/images/image1.png)
 
-This sample project includes some underline telecom cables from ArcGIS Online (https://services.arcgis.com/nzS0F0zdNLvs7nc8/arcgis/rest/services/UnderseaTelecomCables_2018/FeatureServer)
+This sample project includes some undersea telecom cables from ArcGIS Online (https://services.arcgis.com/nzS0F0zdNLvs7nc8/arcgis/rest/services/UnderseaTelecomCables_2018/FeatureServer)
 
 ## Basic Plugin Usage
 
